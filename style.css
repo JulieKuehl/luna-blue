@@ -25,6 +25,7 @@ GitHub Theme URI: https://github.com/rumspeed/luna-blue
  * WordPress Child theme.
  */
 
+
 /* =Primary Design and Structure
 ----------------------------------------------- */
 
@@ -724,3 +725,51 @@ img.size-full {
 		height: 30px;
 	}
 }
+
+
+/* My Tweaks
+------------------------- */
+#content {
+    width: 70%;
+    margin: 0 15% 0 15%;
+}
+
+.entry-header {
+    text-align: center;
+}
+
+.entry-content img.alignleft {
+    margin: 3% 3% 3% -20%;
+    float: left;
+}
+#content img.alignright {
+    margin: 3% -20% 3% 3%;
+    float: right;
+}
+#content img.aligncenter {
+    margin: 3% auto 3% auto;
+    clear: both;
+}
+.entry-content img.alignnone {
+    margin: 3% 3% 3% -20%;
+    float: left;
+}
+.wp-caption.alignnone {
+    margin: 3% 3% 3% -20%;
+    padding: 0;
+    float: left;
+}
+.wp-caption {
+    display: block;
+    padding: 0;
+    line-height: 1;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    box-shadow: none;
+    margin: 0;
+}
+
